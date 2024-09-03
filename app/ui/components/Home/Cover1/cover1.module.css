@@ -1,0 +1,43 @@
+.parallaxContainer {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .parallaxContent {
+    position: relative;
+    height: 100%;
+    padding: 50px; /* Adjust padding as needed */
+  }
+  
+  .parallaxImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate3d(0, 0, 0); /* For better performance */
+  }
+  
+  /* Adjust the parallax effect speed by modifying the `background-position-y` value */
+  @keyframes parallax {
+    0% { background-position-y: 0; }
+    100% { background-position-y: -100%; }
+  }
+  
+  .parallaxContainer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../../../public/images/jochyCover1.jpg');
+    background-size: cover;
+    background-attachment:   
+   fixed; /* Ensures the background stays fixed while scrolling */
+    background-position-y: 50%; /* Initial position */
+    animation: parallax 10s linear infinite; /* Adjust duration and easing as needed */
+    transform: translateY(calc(-50% + var(--scroll-y))); /* Parallax effect based on scroll */
+  }

@@ -7,6 +7,8 @@ import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { usePathname } from 'next/navigation';
+import JOCHY_LOGO from '../../../../../public/images/jochyLogo.png';
+import JOCHY_LOGO_WHITE from '../../../../../public/images/jochyLogoWhite.png';
 
 
 
@@ -61,17 +63,17 @@ const Navbar = () => {
               </div>
               <Link className={styles.logoLink} href='/'>
                   <h1 className={styles.title}>Jochy</h1>
-                  {/* <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={Cristina_Cinque_Logo} alt='Cristina_Cinque_Logo' width={'auto'} height={navHeight ? 50 : 70} priority /> */}
+                  <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={navHeight ? JOCHY_LOGO : JOCHY_LOGO_WHITE} alt='JOCHY_LOGO' width={'auto'} height={navHeight ? 30 : 40} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href='#proyecto' className={styles.link}>PROYECTO</Link>
-              <Link href='#unidades' className={styles.link}>UNIDADES</Link>
-              <Link href='#arquitecto' className={styles.link}>ARQUITECTO</Link>
-              <Link href='#constructor' className={styles.link}>CONSTRUCTOR</Link>
-              <Link href='#desarrollador' className={styles.link}>DESARROLLADOR</Link>
-              <Link href='#puertos' className={styles.link}>PUERTOS</Link>
-              <Link href='#comercializador' className={styles.link}>COMERCIALIZADOR</Link>
+              <Link href='#proyecto' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>PROYECTO</Link>
+              <Link href='#unidades' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>UNIDADES</Link>
+              <Link href='#arquitecto' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>ARQUITECTO</Link>
+              <Link href='#constructor' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>CONSTRUCTOR</Link>
+              <Link href='#desarrollador' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>DESARROLLADOR</Link>
+              <Link href='#puertos' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>PUERTOS</Link>
+              <Link href='#comercializador' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>COMERCIALIZADOR</Link>
               <Link href='#contacto' className={`${styles.link} ${styles.blankRight}`}>CONTACTO</Link>
           </div>
         </div>

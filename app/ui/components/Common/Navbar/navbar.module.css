@@ -8,11 +8,12 @@
     z-index: 15;
     will-change: height;
     transition: height 0.5s ease;
+    color: var(--bg);
 }
 
 .containerHeight {
     height: 80px;
-    background:  var(--brandIn);
+    color: var(--text);
     padding: 6vh 10vw;
     display: flex;
     align-items: center;
@@ -73,13 +74,16 @@
 
 .link {
     width: max-content;
-    color: var(--bg);
     position: relative;
     font-size: var(--topTitle);
     font-weight: 400;
     height: max-content;
-    padding: 0 2vw;
+    padding: 0 1.5vw;
     border-right: 1px solid var(--bg);
+}
+
+.linkColor {
+    border-right: 1px solid var(--text);
 }
 
 .blankRight {
