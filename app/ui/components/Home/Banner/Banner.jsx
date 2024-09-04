@@ -46,7 +46,6 @@ const Banner = () => {
     <div className={styles.container} ref={animationRef}>
         <div className={styles.scrollOffset} id='objetivos'></div>
         <div className={styles.wrapper}>
-          <Image className={styles.logo} src={JOCHY_LOGO} alt='JOCHY_LOGO' width={'auto'} height={40} priority />
           <h1 className={`${styles.title} ${animate ? styles.visible : ''}`}>DONDE EL ARTE Y LA NATURALEZA CONVERGEN</h1>
         </div>
     </div>

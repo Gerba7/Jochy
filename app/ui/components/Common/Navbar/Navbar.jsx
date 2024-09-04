@@ -63,7 +63,7 @@ const Navbar = () => {
               </div>
               <Link className={styles.logoLink} href='/'>
                   <h1 className={styles.title}>Jochy</h1>
-                  <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={navHeight ? JOCHY_LOGO : JOCHY_LOGO_WHITE} alt='JOCHY_LOGO' width={'auto'} height={navHeight ? 30 : 40} priority />
+                  <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={navHeight ? JOCHY_LOGO : JOCHY_LOGO_WHITE} alt='JOCHY_LOGO' width={'auto'} height={navHeight ? 30 : 38} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>

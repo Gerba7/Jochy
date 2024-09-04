@@ -60,6 +60,10 @@
     scale: 1.25;
 }
 
+.logoLink {
+    margin-top: 5px;
+}
+
 .title {
     display: none;
 }
