@@ -1,0 +1,56 @@
+.container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg);
+    color: #fff;
+    justify-content: center;
+    position: relative;
+    /* background-image: url('../../../../../public/images/howwework.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+}
+
+.mapContainer {
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contactContainer {
+    flex: 1;
+    height: 100%;
+    background-color: var(--BrandLight);
+}
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .mapContainer {
+        margin-top: 5vh;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .container {
+        padding: 0 5vw 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container {
+        padding: 0 10vw 10vh 10vw;
+    }
+
+}

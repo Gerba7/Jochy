@@ -48,7 +48,7 @@ const Proyecto = () => {
       <div className={styles.wrapper}>
         <p className={styles.texts}>
             Se construirán aproximadamente doscientas Cocheras en el subsuelo y una cantidad adicional sobre el predio, 
-            en armonía con el espíritu y la filosofía de Puertos, para el uso exclusivo de las unidades del complejo edilicio.
+            en armonía con el espíritu y la filosofía de Puertos, <br/>para el uso exclusivo de las unidades del complejo edilicio.
         </p>
         <p className={styles.texts}>
             Finalmente, entre los módulos, se construirá un Paseo Peatonal con exuberante vegetación, de libre acceso para la 
