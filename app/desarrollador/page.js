@@ -32,6 +32,9 @@ const Desarrollador = () => {
             desarrollos de viviendas multifamiliares en la Zona Oeste del Gran Buenos Aires, unieron fuerzas para 
             potenciar su alcance en el mercado inmobiliario.
         </p>
+      </div>
+      <div className={styles.parallaxContainer} />
+      <div className={styles.wrapper}>
         <p className={styles.texts}>
             La experiencia y trayectoria de este grupo les ha permitido gestionar exitosamente negocios e inversiones 
             inmobiliarias, con el respaldo de una sólida cartera de clientes, inversores y socios que los acompañan en 

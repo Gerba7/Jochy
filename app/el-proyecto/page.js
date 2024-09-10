@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import styles from '../ui/components/Proyecto/proyecto.module.css';
-import Modulos1 from '../../public/images/modulos1.jpg';
 import Proyecto2 from '../../public/images/proyecto2.jpeg';
 import Proyecto3 from '../../public/images/proyecto3.jpg';
 import Proyecto4 from '../../public/images/proyecto4.jpg';
 import Proyecto5 from '../../public/images/proyecto5.jpg';
+import MiniSlider from '../ui/components/Proyecto/MiniSlider/MiniSlider';
 
 
 
@@ -44,7 +44,10 @@ const Proyecto = () => {
             una destinada a uso residencial y la otra con un enfoque mixto, combinando vivienda y espacios profesionales.
         </p>
       </div>
-      <Image className={styles.img} src={Modulos1} alt='modulos' />
+      {/* <Image className={styles.img} src={Modulos1} alt='modulos' /> */}
+      <div className={styles.img}>
+        <MiniSlider />
+      </div>
       <div className={styles.wrapper}>
         <p className={styles.texts}>
             Se construirán aproximadamente doscientas Cocheras en el subsuelo y una cantidad adicional sobre el predio, 

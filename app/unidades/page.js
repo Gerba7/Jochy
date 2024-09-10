@@ -18,9 +18,12 @@ const Unidades = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <h2 className={styles.title}>UNIDADES</h2>
+        <p className={styles.texts}>
+            Todas las unidades poseen amplios espacios, ofreciendo el mayor confort y calidad a sus ambientes.
+        </p>
       </div>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>Módulo “A”</h2>
+        <h2 className={styles.title}>Módulo A</h2>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.content}>
@@ -43,7 +46,7 @@ const Unidades = () => {
         </div>
       </div>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>Módulo “B”</h2>
+        <h2 className={styles.title}>Módulo B</h2>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.content}>
@@ -60,7 +63,7 @@ const Unidades = () => {
         </div>
       </div>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>Módulo “C”</h2>
+        <h2 className={styles.title}>Módulo C</h2>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.content}>

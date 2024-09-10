@@ -24,3 +24,12 @@
 .texts {
     line-height: var(--paragraphLine);
 }
+
+.parallaxContainer {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../../../../public/images/proyecto6.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

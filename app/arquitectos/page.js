@@ -23,9 +23,9 @@ const Arquitectos = () => {
             reconocidas universidades y eventos internacionales, consolidando su reputación como líderes en la arquitectura contemporánea.
         </p>
         <p className={styles.texts}>
-            on una visión que combina vanguardia y responsabilidad ambiental, Clusellas Ades sigue siendo un referente en el diseño 
+            Son una visión que combina vanguardia y responsabilidad ambiental, Clusellas Ades sigue siendo un referente en el diseño 
             arquitectónico, abordando cada nuevo proyecto con un enfoque único y personalizado para superar las expectativas de sus 
-            clientes y mejorar la calidad de vida en los espacios que crea.
+            clientes <br/>y mejorar la calidad de vida en los espacios que crea.
         </p>
       </div>
       <div className={styles.wrapper}>
@@ -38,7 +38,9 @@ const Arquitectos = () => {
             ha actuado como jurado en concursos nacionales y asesor en la Dirección de Arquitectura del Gobierno de la 
             Ciudad de Buenos Aires, contribuyendo al desarrollo de importantes proyectos urbanos y públicos. Su práctica 
             abarca proyectos de variadas escalas en entornos urbanos, suburbanos y rurales tanto en Argentina como en 
-            Uruguay. Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y ha sido 
+            Uruguay.
+        </p>
+        <p className={styles.texts}>Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y ha sido 
             extensamente publicada en medios especializados.
         </p>
       </div>
@@ -52,8 +54,11 @@ const Arquitectos = () => {
             ha actuado como jurado en concursos nacionales y asesor en la Dirección de Arquitectura del Gobierno de la 
             Ciudad de Buenos Aires, contribuyendo al desarrollo de importantes proyectos urbanos y públicos. Su práctica 
             abarca proyectos de variadas escalas en entornos urbanos, suburbanos y rurales tanto en Argentina como en 
-            Uruguay. Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y ha sido 
-            extensamente publicada en medios especializados.
+            Uruguay. 
+        </p>
+        <p className={styles.texts}>
+            Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y ha sido extensamente 
+            publicada en medios especializados.
         </p>
       </div>
     </div>
