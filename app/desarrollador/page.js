@@ -51,7 +51,9 @@ const Desarrollador = () => {
         </p>
         <p className={styles.texts}>
             JOCHY Puertos establece las bases para un desarrollo innovador que combina diferentes usos, desde viviendas y 
-            oficinas hasta comercio y amenidades, todo en un entorno diseñado para brindar calidad de vida y comodidad. 
+            oficinas hasta comercio y amenidades,<br/> todo en un entorno diseñado para brindar calidad de vida y comodidad. 
+        </p>
+        <p className={styles.texts}>
             ¡Un proyecto emocionante y transformador para la comunidad de Puertos!
         </p>
         <p className={styles.texts}>

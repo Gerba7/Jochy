@@ -59,8 +59,8 @@ const Puertos = () => {
             </p>
             <p className={styles.texts}>
                 Dos pilares adicionales de la propuesta de Puertos son el arte y el deporte. Actualmente, se encuentra 
-                en desarrollo un programa de arte a cielo abierto, con instalaciones y obras de artistas reconocidos, 
-                ubicadas en los paisajes y espacios comunes, con el propósito de integrar el arte en la vida cotidiana 
+                en desarrollo un programa de arte a cielo abierto, con instalaciones y obras de artistas <br/> reconocidos, 
+                ubicadas en los paisajes y espacios comunes, <br/>con el propósito de integrar el arte en la vida cotidiana 
                 de los habitantes.
             </p>
             <p className={styles.texts}>
@@ -74,8 +74,8 @@ const Puertos = () => {
             <h2 className={styles.title}>LA RESERVA</h2>
             <p className={styles.texts}>
                 Un corredor biológico a lo largo de la ribera, donde se preservan las especies autóctonas. Con 60 hectáreas 
-                de superficie libre bordeando el Río Luján, permite la circulación de fauna entre diferentes hábitats y 
-                pequeñas islas sobre el Lago Escobar, convirtiendo el corazón de Puertos en un refugio para la fauna lacustre.
+                de superficie libre bordeando el Río Luján, permite la circulación de fauna entre <br/>diferentes hábitats y 
+                pequeñas islas sobre el Lago Escobar, <br/>convirtiendo el corazón de Puertos en un refugio para la fauna lacustre.
             </p>
             <div className={styles.list}>
                 <div className={styles.itemContainer}>
@@ -126,7 +126,7 @@ const Puertos = () => {
                 de 200 hectáreas. Es el lugar perfecto para una amplia gama de actividades recreativas y deportivas. 
                 Vive la emoción del wakepark más extenso del país, con 240 metros de cable, 220 de riding, rampas y 
                 8 módulos de saltos. O elige tu orilla preferida para una pausa y contemplación, disfrutando del agua 
-                y los espacios verdes a tu propio ritmo.
+                y <br/>los espacios verdes a tu propio ritmo.
             </p>
         </div>
     </div>

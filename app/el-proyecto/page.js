@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../ui/components/Proyecto/proyecto.module.css';
-import Proyecto2 from '../../public/images/proyecto2.jpeg';
+import Proyecto2 from '../../public/images/proyectos2.jpeg';
 import Proyecto3 from '../../public/images/proyecto3.jpg';
 import Proyecto4 from '../../public/images/proyecto4.jpg';
 import Proyecto5 from '../../public/images/proyecto5.jpg';
@@ -58,8 +58,10 @@ const Proyecto = () => {
             comunidad, que integrará los diferentes espacios del proyecto.
         </p>
         <p className={styles.texts}>
-            JOCHY Puertos establece las bases para un desarrollo innovador que combina diferentes usos, desde viviendas y 
-            oficinas hasta comercio y amenidades, todo en un entorno diseñado para brindar calidad de vida y comodidad. 
+            JOCHY Puertos establece las bases para un desarrollo innovador que combina diferentes usos, <br/>desde viviendas y 
+            oficinas hasta comercio y amenidades,<br/> todo en un entorno diseñado para brindar calidad de vida y comodidad. 
+        </p>
+        <p className={styles.texts}>
             ¡Un proyecto emocionante y transformador para la comunidad de Puertos!
         </p>
       </div>
