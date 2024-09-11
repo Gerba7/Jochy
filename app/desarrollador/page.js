@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from '../ui/components/Desarrollador/desarrollador.module.css';
 
 
@@ -8,7 +7,7 @@ const Desarrollador = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.wrapper}>
+      {/* <div className={styles.wrapper}>
         <h2 className={styles.title}>DESARROLLADOR</h2>
         <p className={styles.texts}>
             La <b>Alianza Laurens-Carfí-Pujol</b> es un grupo destacado de desarrolladores inmobiliarios que 
@@ -61,7 +60,7 @@ const Desarrollador = () => {
             inmobiliario liderado por Consultatio, donde buscan crear productos innovadores y de calidad, en plena armonía 
             con el entorno natural, reafirmando su compromiso con la sustentabilidad y la excelencia en cada proyecto.
         </p>
-      </div>
+      </div> */}
     </div>
   )
 }

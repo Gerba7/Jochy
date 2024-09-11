@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from '../ui/components/Puertos/puertos.module.css';
 import Counter from '../ui/components/Puertos/Counter/Counter';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import MapRow2 from '../ui/components/Puertos/MapRow2/MapRow2';
 
 
 
@@ -59,8 +60,8 @@ const Puertos = () => {
             </p>
             <p className={styles.texts}>
                 Dos pilares adicionales de la propuesta de Puertos son el arte y el deporte. Actualmente, se encuentra 
-                en desarrollo un programa de arte a cielo abierto, con instalaciones y obras de artistas <br/> reconocidos, 
-                ubicadas en los paisajes y espacios comunes, <br/>con el propósito de integrar el arte en la vida cotidiana 
+                en desarrollo un programa de arte a cielo abierto, con instalaciones y obras de artistas reconocidos, 
+                ubicadas en los paisajes y espacios comunes, con el propósito de integrar el arte en la vida cotidiana 
                 de los habitantes.
             </p>
             <p className={styles.texts}>
@@ -71,11 +72,75 @@ const Puertos = () => {
             </p>
         </div>
         <div className={styles.wrapper}>
+            <h2 className={styles.title}>CIUDAD</h2>
+            <p className={styles.texts}>
+                Puertos es una ciudad rodeada de naturaleza, con un diseño urbanístico que fusiona arte, paisaje y compromiso 
+                ambiental. Extendiéndose sobre más de 1.400 hectáreas, destaca por su lago central y una reserva natural de 60 
+                hectáreas. Aquí, lo cotidiano se transforma en extraordinario. Puertos combina la tranquilidad natural con todas 
+                las comodidades urbanas, destacándose por su seguridad, diseño adaptado al entorno y conciencia ecológica.
+            </p>
+            <p className={styles.texts}>
+                Sus bicisendas conectan cada rincón, y los servicios están estratégicamente ubicados para tu comodidad. El 
+                respeto por el medio ambiente es esencial: se promueve la separación de residuos, se cuenta con redes de agua 
+                diferenciadas para riego y consumo, y su diseño paisajístico pone en valor la flora autóctona y la biodiversidad 
+                local.
+            </p>
+            <p className={styles.texts}>
+                En Puertos, encontrarás todo lo que una familia necesita: educación de primer nivel, centros comerciales, espacios 
+                para deportes y servicios de calidad, incluyendo redes propias de gas, agua y cloacas. Todo está pensado para el 
+                bienestar de quienes elijan este lugar como hogar.
+            </p>
+            <div className={styles.list}>
+                <div className={styles.itemContainer}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                    </div>
+                    <div className={styles.item}>Club Puertos, Náutico y Deportivo.</div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                    </div>
+                    <div className={styles.item}>Lago central de 200 ha.</div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                    </div>
+                    <div className={styles.item}>Reserva Natural de 60 ha.</div>
+                </div>
+                <div className={styles.itemContainer} style={{alignItems: 'flex-start'}}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit'  />
+                    </div>
+                    <div className={styles.item} style={{textAlign: 'start'}}>Colegios que ofrecen los tres niveles <br/>educativos a residentes y niños de comunidades <br/>vecinas (Northfield, St John’s y Colegio del Faro).</div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                    </div>
+                    <div className={styles.item}>Atención médica.</div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                    </div>
+                    <div className={styles.item}>Locales comerciales.</div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.iconContainer}>
+                        <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                    </div>
+                    <div className={styles.item}>Restaurantes.</div>
+                </div>
+            </div>
+        </div>
+        <div className={styles.wrapper}>
             <h2 className={styles.title}>LA RESERVA</h2>
             <p className={styles.texts}>
                 Un corredor biológico a lo largo de la ribera, donde se preservan las especies autóctonas. Con 60 hectáreas 
-                de superficie libre bordeando el Río Luján, permite la circulación de fauna entre <br/>diferentes hábitats y 
-                pequeñas islas sobre el Lago Escobar, <br/>convirtiendo el corazón de Puertos en un refugio para la fauna lacustre.
+                de superficie libre bordeando el Río Luján, permite la circulación de fauna entre diferentes hábitats y 
+                pequeñas islas sobre el Lago Escobar, convirtiendo el corazón de Puertos en un refugio para la fauna lacustre.
             </p>
             <div className={styles.list}>
                 <div className={styles.itemContainer}>
@@ -126,9 +191,217 @@ const Puertos = () => {
                 de 200 hectáreas. Es el lugar perfecto para una amplia gama de actividades recreativas y deportivas. 
                 Vive la emoción del wakepark más extenso del país, con 240 metros de cable, 220 de riding, rampas y 
                 8 módulos de saltos. O elige tu orilla preferida para una pausa y contemplación, disfrutando del agua 
-                y <br/>los espacios verdes a tu propio ritmo.
+                y los espacios verdes a tu propio ritmo.
             </p>
         </div>
+        <div className={styles.parallaxContainer2} />
+        <div className={styles.wrapper}>
+            <h2 className={styles.title}>BARRIOS EN PUERTOS</h2>
+            <div className={styles.lists}>
+                <div className={styles.list}>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Vistas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Araucarias.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Marinas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Muelles.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Ceibos.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Acacias.</div>
+                    </div>
+                </div>
+                <div className={styles.list}>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Costas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Nativas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Riberas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Orillas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Amarras.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Bahías.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className={styles.wrapper}>
+            <h2 className={styles.title}>ACTIVIDADES DEPORTIVAS</h2>
+            <p className={styles.texts}>
+                El Club Puertos es el epicentro de la actividad y vida al aire libre. Priorizando el deporte y el 
+                bienestar, ofrece infraestructura y actividades para todos.
+            </p>
+            <div className={styles.lists}>
+                <div className={styles.list}>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Vela ligera.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Windsurf.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Canotaje.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Kayak.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Stand up paddle.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Dragon boat.</div>
+                    </div>
+                </div>
+                <div className={styles.list}>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Remo.</div>
+                    </div>
+                    <div className={styles.itemContainer} style={{alignItems: 'flex-start'}}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item} style={{textAlign: 'start'}}>Natación en<br/>aguas abiertas.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Tenis.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Fútbol.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Hockey.</div>
+                    </div>
+                </div>
+            </div>
+            <p className={styles.texts}>
+                Es también el lugar ideal para running y cuenta con un gimnasio equipado con tecnología de punta. 
+                Con eventos y propuestas constantemente actualizadas, se consolida como el punto de encuentro predilecto 
+                para los vecinos.
+            </p>
+        </div>
+        <div className={styles.wrapper}>
+            <h2 className={styles.title}>ÁREAS COMUNES</h2>
+            <div className={styles.lists}>
+                <div className={styles.list}>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Piscina.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Gimnasio.</div>
+                    </div>
+                </div>
+                <div className={styles.list}>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Club House.</div>
+                    </div>
+                    <div className={styles.itemContainer}>
+                        <div className={styles.iconContainer}>
+                            <KeyboardArrowRightIcon color='inherit' fontSize='inherit' />
+                        </div>
+                        <div className={styles.item}>Juegos.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className={styles.wrapper}>
+            <h2 className={styles.title}>UBICACIÓN</h2>
+            <p className={styles.texts}>
+                Panamericana Ramal Escobar KM 45.<br/>
+                Buenos Aires, Escobar, Puertos.<br/>
+                Acceso directo: Puertos cuenta con un acceso asfaltado e iluminado de 4 km desde Panamericana, con dos carriles por sentido. A solo 40 minutos de CABA.
+            </p>
+        </div>
+        <MapRow2 />
     </div>
   )
 }

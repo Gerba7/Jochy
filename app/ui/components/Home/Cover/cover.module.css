@@ -42,13 +42,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+    z-index: 10;
+    filter: drop-shadow(3px 3px 3px #00000087);
   }
 
   .logoImg {
-    width: 500px;
+    width: 300px;
     height: auto;
   }
 
@@ -84,7 +86,7 @@
     filter: drop-shadow(2px 2px 2px #000000);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 799px) {
 
     .link {
       bottom: 120px;
@@ -94,10 +96,29 @@
       width: 300px;
     }
 
+    .coverLogo {
+      display: flex;
+    }
+
+    .arrow {
+      width: 7vw;
+      height: auto;
+    }
+
+    .link {
+      font-size: 70px;
+      bottom: 70px;
+      padding: 3vw;
+    }
+
+    .container {
+      background-attachment: initial;
+    }
+
   }
 
 
-  @media (max-height: 700px) and (min-width: 1000px) {
+  @media (max-height: 800px) and (min-width: 1000px) {
 
     .logoImg {
       width: 350px;

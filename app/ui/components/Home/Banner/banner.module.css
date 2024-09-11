@@ -94,11 +94,16 @@
 @media  (max-width: 799px) {
     
     .container {
-        padding: 10vh 5vw;
+        padding: 5vh 5vw;
+    }
+
+    .wrapper {
+        padding: 5vh 0;
     }
 
     .title {
-        font-size: 28px;
+        font-size: var(--superTitleMobile);
+        text-align: center;
     }
 
     .description {

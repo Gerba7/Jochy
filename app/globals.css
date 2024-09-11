@@ -6,10 +6,19 @@
 
   --superTitle: 2.5vw;
   --title: 2vw;
-  --title: 1.8vw;
+  --title2: 1.2vw;
+  --paragraph: 1vw;
   --topTitle: .8vw; 
+
+  --superTitleMobile: 7vw;
+  --titleMobile: 6vw;
+  --title2Mobile: 4.8vw;
+  --paragraphMobile: 3vw;
+  --topTitleMobile: .8vw; 
   
   --paragraphLine: 4vh;
+  --paragraphLine2: 3vh;
+  --paragraphLine3: 2vh;
   
 
 }

@@ -27,6 +27,7 @@
 }
 
 .texts {
+    font-size: var(--paragraph);
     line-height: var(--paragraphLine);
     margin-bottom: 5vh;
 }
@@ -59,4 +60,84 @@
 
 .phone {
     font-weight: 700;
+}
+
+
+
+@media  (max-width: 799px) {
+
+    .wrapper {
+        padding: 0vh 5vw;
+        gap: 3vh;
+    }
+
+    .title {
+        font-size: var(--titleMobile);
+    }
+
+    .title2 {
+        font-size: var(--title2Mobile);
+    }
+
+    .texts {
+        font-size: var(--paragraphMobile);
+        line-height: var(--paragraphLine2);
+    }
+
+    .parallaxContainer {
+        background-attachment: initial;
+    }
+
+    .sponsors {
+        flex-direction: column;
+        gap: 10vw;
+        align-items: center;
+    }
+    
+    .sponsor {
+        gap: 2vh;
+    }
+
+    .logoContainer {
+        height: 6vh;
+        width: 50vw;
+    }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .wrapper {
+        padding: 0vh 10vw;
+        gap: 3vh;
+    }
+
+    .texts {
+        line-height: var(--paragraphLine3);
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .wrapper {
+        padding: 0vh 15vw;
+        gap: 3vh;
+    }
+
+    .texts {
+        line-height: var(--paragraphLine2);
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .wrapper {
+        padding: 0vh 15vw;
+    }
+
 }

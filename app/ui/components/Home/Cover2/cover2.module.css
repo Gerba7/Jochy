@@ -67,45 +67,7 @@
 @media  (max-width: 799px) {
 
     .container {
-        padding: 10vh 5vw;
-        background-attachment: scroll;
-    }
-
-    .wrapper {
-        align-items: center;
-    }
-
-    .paragraph1 {
-        font-size: var(--mobileTitle2);
-        transform: translateX(50%);
-        text-align: center;
-    }
-    
-    .paragraph2 {
-        font-size: var(--mobileTitle2);
-        transform: translateX(50%);
-        text-align: center;
-    }
-    
-    .titles {
-        font-size: var(--mobileTitle);
-        transform: translateX(100%);
-        text-align: center;
-    }
-    
-    .titles2 {
-        font-size: var(--mobileTitle);
-        transform: translateX(100%);
-        text-align: center;
-    }
-
-    .slideIn {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-
-    .button {
-        font-size: var(--mobileSubtitle);
+        background-attachment: initial;
     }
 
 }

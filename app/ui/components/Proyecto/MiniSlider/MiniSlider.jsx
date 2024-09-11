@@ -79,7 +79,7 @@ const MiniSlider = () => {
   return (
     <div className={styles.container}>
         <div className={`${styles.arrow} ${styles.arrowLeft}`} onClick={() => handleClick("left")}>
-            <KeyboardArrowLeftIcon style={{color: '#f5f5f5'}} />
+            <KeyboardArrowLeftIcon style={{color: '#f5f5f5'}} fontSize='inherit' />
         </div>
         <div className={styles.wrapper}>
             {items?.map((item, idx) => (
@@ -91,7 +91,7 @@ const MiniSlider = () => {
             ))}
         </div>
         <div className={`${styles.arrow} ${styles.arrowRight}`} onClick={() => handleClick("right")}>
-            <KeyboardArrowRightIcon style={{color: '#f5f5f5'}} />
+            <KeyboardArrowRightIcon style={{color: '#f5f5f5'}} fontSize='inherit' />
         </div>
         <div className={styles.dotsContainer}>
             {items?.map((_, idx) => (

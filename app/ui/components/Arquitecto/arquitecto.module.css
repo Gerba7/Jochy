@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-    padding: 0vh 20vw;
+    padding: 0vh 23vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -22,5 +22,78 @@
 }
 
 .texts {
+    font-size: var(--paragraph);
     line-height: var(--paragraphLine);
 }
+
+.parallaxContainer {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../../../../public/images/proyectos8.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+@media  (max-width: 799px) {
+
+    .wrapper {
+        padding: 0vh 5vw;
+        gap: 3vh;
+    }
+
+    .title {
+        font-size: var(--titleMobile);
+    }
+
+    .texts {
+        font-size: var(--paragraphMobile);
+        line-height: var(--paragraphLine2);
+    }
+
+    .parallaxContainer {
+        background-attachment: initial;
+    }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .wrapper {
+        padding: 0vh 10vw;
+        gap: 3vh;
+    }
+
+    .texts {
+        line-height: var(--paragraphLine3);
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .wrapper {
+        padding: 0vh 13vw;
+        gap: 3vh;
+    }
+
+    .texts {
+        line-height: var(--paragraphLine2);
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .wrapper {
+        padding: 0vh 17vw;
+    }
+
+}
+

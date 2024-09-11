@@ -73,9 +73,9 @@ const Navbar = () => {
           <Link href='/unidades' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>UNIDADES</Link>
           <Link href='/arquitectos' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>ARQUITECTOS</Link>
           <Link href='#constructor' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>CONSTRUCTOR</Link>
-          <Link href='/desarrollador' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>DESARROLLADOR</Link>
-          <Link href='/puertos' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>PUERTOS</Link>
+          {/* <Link href='/desarrollador' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>DESARROLLADOR</Link> */}
           <Link href='/comercializador' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>COMERCIALIZADOR</Link>
+          <Link href='/puertos' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>PUERTOS</Link>
           <Link href='/contacto' className={`${styles.link} ${styles.blankRight}`}>CONTACTO</Link>
         </div>
       </div>

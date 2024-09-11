@@ -6,7 +6,7 @@ import Navbar from "./ui/components/Common/Navbar/Navbar";
 const montserrat = Montserrat({ subsets: ["latin"], display: 'swap', weight: ['100', '300', '400', '700', '900'], });
 
 export const metadata = {
-  title: "Jochy 6 | Puertos",
+  title: "Jochy | Puertos",
   description: "Desarrollos inmobiliarios",
 };
 

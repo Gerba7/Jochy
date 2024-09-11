@@ -44,7 +44,7 @@ const Banner = () => {
 
   return (
     <div className={styles.container} ref={animationRef}>
-        <div className={styles.scrollOffset} id='objetivos'></div>
+        <div className={styles.scrollOffset} id='banner'></div>
         <div className={styles.wrapper}>
           <h1 className={`${styles.title} ${animate ? styles.visible : ''}`}>DONDE EL ARTE Y LA NATURALEZA CONVERGEN</h1>
         </div>

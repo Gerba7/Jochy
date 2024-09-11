@@ -25,10 +25,10 @@ const Comercializador = () => {
         <div className={styles.sponsors} style={{marginBottom: '5vh'}}>
             <div className={styles.sponsor}>
                 <div className={styles.logoContainer}>
-                    <Image className={styles.logo} src={LJ} alt='LJRamos' />
+                    <Image className={styles.logo} src={Lagonorte} alt='Lagonorte' />
                 </div>
                 <div className={styles.phone}>
-                    +54 9 11 3079-0476
+                    +54 9 11 5035-1685
                 </div>
             </div>
             <div className={styles.sponsor}>
@@ -51,18 +51,18 @@ const Comercializador = () => {
         <div className={styles.sponsors}>
             <div className={styles.sponsor}>
                 <div className={styles.logoContainer}>
-                    <Image className={styles.logo} src={Lagonorte} alt='Lagonorte' />
-                </div>
-                <div className={styles.phone}>
-                    +54 9 11 5035-1685
-                </div>
-            </div>
-            <div className={styles.sponsor}>
-                <div className={styles.logoContainer}>
                     <Image className={styles.logo} src={Tizado} alt='Tizado' />
                 </div>
                 <div className={styles.phone}>
                     +54 9 11 4871-0200
+                </div>
+            </div>
+            <div className={styles.sponsor}>
+                <div className={styles.logoContainer}>
+                    <Image className={styles.logo} src={LJ} alt='LJRamos' />
+                </div>
+                <div className={styles.phone}>
+                    +54 9 11 3079-0476
                 </div>
             </div>
         </div>

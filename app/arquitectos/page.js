@@ -28,6 +28,7 @@ const Arquitectos = () => {
             clientes <br/>y mejorar la calidad de vida en los espacios que crea.
         </p>
       </div>
+      <div className={styles.parallaxContainer} />
       <div className={styles.wrapper}>
         <h2 className={styles.title}>Arquitecto <b>Mariano CLUSELLAS</b></h2>
         <p className={styles.texts}>
@@ -40,7 +41,7 @@ const Arquitectos = () => {
             abarca proyectos de variadas escalas en entornos urbanos, suburbanos y rurales tanto en Argentina como en 
             Uruguay.
         </p>
-        <p className={styles.texts}>Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y ha sido 
+        <p className={styles.texts}>Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y <br/>ha sido 
             extensamente publicada en medios especializados.
         </p>
       </div>
@@ -57,7 +58,7 @@ const Arquitectos = () => {
             Uruguay. 
         </p>
         <p className={styles.texts}>
-            Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y ha sido extensamente 
+            Su obra ha sido reconocida con premios, ha recibido elogios por parte de la crítica y <br/>ha sido extensamente 
             publicada en medios especializados.
         </p>
       </div>
