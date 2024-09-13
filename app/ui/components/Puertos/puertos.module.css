@@ -123,7 +123,7 @@
 .lists {
     display: flex;
     flex-direction: row;
-    gap: 15vw;
+    gap: 5vw;
 }
 
 

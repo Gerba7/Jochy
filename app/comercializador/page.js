@@ -5,6 +5,7 @@ import LJ from '../../public/images/logo_ljr.png';
 import Castex from '../../public/images/logo-castex.png';
 import Tizado from '../../public/images/tizado.png';
 import Lagonorte from '../../public/images/lagonorte.jpg';
+import Carfi from '../../public/images/carfiLogo.png';
 import MapRow from '../ui/components/Comercializador/MapRow/MapRow';
 
 
@@ -33,12 +34,22 @@ const Comercializador = () => {
             </div>
             <div className={styles.sponsor}>
                 <div className={styles.logoContainer}>
+                    <Image className={styles.logo} style={{height: '10vh'}} src={Carfi} alt='Carfi' />
+                </div>
+                <div className={styles.phone}>
+                    +54 9 11 2268-0000
+                </div>
+            </div>
+            <div className={styles.sponsor}>
+                <div className={styles.logoContainer}>
                     <Image className={styles.logo} style={{height: '5vh'}} src={Achaval} alt='Achaval' />
                 </div>
                 <div className={styles.phone}>
                     +54 9 11 2268-0000
                 </div>
             </div>
+        </div>
+        <div className={styles.sponsors}>
             <div className={styles.sponsor}>
                 <div className={styles.logoContainer}>
                     <Image className={styles.logo} src={Castex} alt='Castex' />
@@ -47,8 +58,6 @@ const Comercializador = () => {
                     +54 9 11 5712-4245
                 </div>
             </div>
-        </div>
-        <div className={styles.sponsors}>
             <div className={styles.sponsor}>
                 <div className={styles.logoContainer}>
                     <Image className={styles.logo} src={Tizado} alt='Tizado' />
