@@ -34,7 +34,7 @@ const Comercializador = () => {
             </div>
             <div className={styles.sponsor}>
                 <div className={styles.logoContainer}>
-                    <Image className={styles.logo} style={{height: '10vh'}} src={Carfi} alt='Carfi' />
+                    <Image className={styles.logo} style={{height: '15vh'}} src={Carfi} alt='Carfi' />
                 </div>
                 <div className={styles.phone}>
                     +54 9 11 2268-0000
