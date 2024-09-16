@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-    padding: 0vh 23vw;
+    padding: 0vh 17vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
 @media (min-width: 1200px) and (max-width: 1499px) {
 
     .wrapper {
-        padding: 0vh 17vw;
+        padding: 0vh 20vw;
     }
 
 }

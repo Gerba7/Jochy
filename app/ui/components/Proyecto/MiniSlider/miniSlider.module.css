@@ -3,7 +3,6 @@
     height: 100%;
     display: flex;
     position: relative;
-    margin-bottom: 20vh;
 }
 
 .arrowLeft,
@@ -203,4 +202,66 @@
 
 .lineActive {
     background-color: var(--main);
+}
+
+
+@media  (max-width: 799px) {
+
+
+    .miniImages {
+        height: 8vh;
+        bottom: -10vh;
+    }
+
+    .miniImg {
+        width: 16vw;
+    }
+
+    .linesContainer {
+        bottom: -12vh;
+    }
+
+    .line {
+        width: 16vw;
+    }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .miniImg {
+        width: 13vw;
+    }
+
+    .line {
+        width: 13vw;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .miniImg {
+        width: 12vw;
+    }
+
+    .line {
+        width: 12vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .miniImg {
+        width: 10vw;
+    }
+
+    .line {
+        width: 10vw;
+    }
+
 }

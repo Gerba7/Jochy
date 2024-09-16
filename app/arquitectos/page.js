@@ -29,7 +29,7 @@ const Arquitectos = () => {
             también por su capacidad para trascender. 
         </p>
         <p className={styles.texts}>
-            Por ello, el estudio orienta su práctica arquitectónica hacia nuevos paradigmas que respetan y enriquecen el entorno cultural y natural. 
+            Por ello, el estudio orienta su práctica arquitectónica hacia nuevos paradigmas que respetan y enriquecen <br/>el entorno cultural y natural. 
         </p>
         <p className={styles.texts}>
             A lo largo de su trayectoria, el estudio ha colaborado con una cuidadosa selección de empresas constructoras y proveedores de confianza, 
