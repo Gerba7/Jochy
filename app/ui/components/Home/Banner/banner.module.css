@@ -94,7 +94,7 @@
 @media  (max-width: 799px) {
     
     .container {
-        padding: 5vh 5vw;
+        padding: 5vh 0vw;
     }
 
     .wrapper {

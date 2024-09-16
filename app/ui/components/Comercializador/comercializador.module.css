@@ -91,18 +91,22 @@
 
     .sponsors {
         flex-direction: column;
-        gap: 15vw;
+        gap: 17vw;
         align-items: center;
     }
     
     .sponsor {
-        gap: 2vh;
+        gap: 5vh;
     }
 
     .logoContainer {
         height: 6vh;
         width: 50vw;
         margin-bottom: 2vh;
+    }
+
+    .phone {
+        font-weight: 500;
     }
 
 }
