@@ -14,7 +14,7 @@ const Proyecto = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>EL PROYECTO</h2>
+        <h2 className={styles.title}>PROYECTO</h2>
         <p className={styles.texts}>
             El proyecto <b>JOCHY</b> Puertos del reconocido Estudio de Arquitectura <b>CLUSELLAS ADES</b> es 
             una iniciativa ambiciosa que integra diferentes funciones en tres edificios 

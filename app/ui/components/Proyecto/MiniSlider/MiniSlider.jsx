@@ -98,6 +98,16 @@ const MiniSlider = () => {
                 <div key={idx} className={`${styles.dot} ${slideIndex === idx && styles.dotActive}`} onClick={() => setSlideIndex(idx)} />
             ))}
         </div>
+        <div className={styles.miniImages}>
+            {items?.map((item, idx) => (
+                <Image key={item.id} className={`${styles.miniImg} ${slideIndex === idx && styles.miniImgActive}`} src={item.img} alt="miniImg"  onClick={() => setSlideIndex(idx)} />
+            ))}
+        </div>
+        <div className={styles.linesContainer}>
+            {items?.map((_, idx) => (
+                <div key={idx} className={`${styles.line} ${slideIndex === idx && styles.lineActive}`} onClick={() => setSlideIndex(idx)} />
+            ))}
+        </div>
     </div>
   )
 }

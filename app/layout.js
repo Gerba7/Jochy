@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "./ui/components/Common/Navbar/Navbar";
+import WhatsappContact from "./ui/components/WhatsappContact/WhatsappContact";
 
 
 const montserrat = Montserrat({ subsets: ["latin"], display: 'swap', weight: ['100', '300', '400', '700', '900'], });
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <Navbar />
         {children}
+        <WhatsappContact />
       </body>
     </html>
   );

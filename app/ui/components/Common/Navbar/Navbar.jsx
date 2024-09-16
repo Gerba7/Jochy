@@ -69,7 +69,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-          <Link href='/el-proyecto' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>PROYECTO</Link>
+          <Link href='/proyecto' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>PROYECTO</Link>
           <Link href='/unidades' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>UNIDADES</Link>
           <Link href='/arquitectos' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>ARQUITECTOS</Link>
           <Link href='#constructor' className={`${styles.link} ${navHeight ? styles.linkColor : ''}`}>CONSTRUCTOR</Link>

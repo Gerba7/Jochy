@@ -37,7 +37,7 @@ const Comercializador = () => {
                     <Image className={styles.logo} style={{height: '15vh'}} src={Carfi} alt='Carfi' />
                 </div>
                 <div className={styles.phone}>
-                    +54 9 11 2268-0000
+                    +54 9 11 5996-6552
                 </div>
             </div>
             <div className={styles.sponsor}>

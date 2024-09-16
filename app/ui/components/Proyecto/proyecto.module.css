@@ -40,6 +40,7 @@
     height: 80vh;
     object-fit: cover;
     -o-object-fit: cover;
+    margin-bottom: 15vh;
 }
 
 .imgWrapper {
