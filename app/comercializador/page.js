@@ -45,7 +45,7 @@ const Comercializador = () => {
                     <Image className={styles.logo} style={{height: '5vh'}} src={Achaval} alt='Achaval' />
                 </div>
                 <div className={styles.phone}>
-                    +54 9 11 2268-0000
+                    {/* +54 9 11 2268-0000 */}
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ const Comercializador = () => {
                     <Image className={styles.logo} src={Castex} alt='Castex' />
                 </div>
                 <div className={styles.phone}>
-                    +54 9 11 5712-4245
+                    {/* +54 9 11 5712-4245 */}
                 </div>
             </div>
             <div className={styles.sponsor}>
@@ -63,7 +63,7 @@ const Comercializador = () => {
                     <Image className={styles.logo} src={Tizado} alt='Tizado' />
                 </div>
                 <div className={styles.phone}>
-                    +54 9 11 4871-0200
+                    {/* +54 9 11 4871-0200 */}
                 </div>
             </div>
             <div className={styles.sponsor}>
@@ -71,7 +71,7 @@ const Comercializador = () => {
                     <Image className={styles.logo} src={LJ} alt='LJRamos' />
                 </div>
                 <div className={styles.phone}>
-                    +54 9 11 3079-0476
+                    {/* +54 9 11 3079-0476 */}
                 </div>
             </div>
         </div>
